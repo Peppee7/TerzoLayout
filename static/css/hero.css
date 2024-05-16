@@ -1,7 +1,20 @@
 .hero {
-    /* background-image: url(../img/sfondo.png); */
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(../img/sfondo.png); 
+    /*background-color: black*/
+    
+}
+
+.header {
+
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.footer {
+
 }
